@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>Bishop.h</itemPath>
+      <itemPath>ChessMaster.h</itemPath>
+      <itemPath>Chessman.h</itemPath>
+      <itemPath>Field.h</itemPath>
+      <itemPath>King.h</itemPath>
+      <itemPath>Knight.h</itemPath>
+      <itemPath>Man.h</itemPath>
+      <itemPath>Queen.h</itemPath>
+      <itemPath>SDL_gfxPrimitives.h</itemPath>
+      <itemPath>SDL_gfxPrimitives_font.h</itemPath>
+      <itemPath>Tower.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+      <itemPath>grafika/Figure</itemPath>
+      <itemPath>grafika/marble00.bmp</itemPath>
+      <itemPath>grafika/marble01.bmp</itemPath>
+      <itemPath>grafika/marble02.bmp</itemPath>
+      <itemPath>grafika/marble03.bmp</itemPath>
+      <itemPath>grafika/metal00.bmp</itemPath>
+      <itemPath>grafika/metal01.bmp</itemPath>
+      <itemPath>grafika/wood00.bmp</itemPath>
+      <itemPath>grafika/wood01.bmp</itemPath>
+      <itemPath>grafika/wood02.bmp</itemPath>
+      <itemPath>grafika/wood03.bmp</itemPath>
+      <itemPath>grafika/woodchess.png</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>Bishop.cpp</itemPath>
+      <itemPath>ChessMaster.cpp</itemPath>
+      <itemPath>Chessman.cpp</itemPath>
+      <itemPath>Field.cpp</itemPath>
+      <itemPath>King.cpp</itemPath>
+      <itemPath>Knight.cpp</itemPath>
+      <itemPath>Man.cpp</itemPath>
+      <itemPath>Queen.cpp</itemPath>
+      <itemPath>SDL_gfxPrimitives.c</itemPath>
+      <itemPath>Tower.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/chess</output>
+          <linkerLibItems>
+            <linkerOptionItem>`pkg-config --libs sdl`</linkerOptionItem>
+            <linkerOptionItem>`pkg-config --libs SDL_image`</linkerOptionItem>
+            <linkerOptionItem>`pkg-config --libs SDL_mixer`</linkerOptionItem>
+            <linkerOptionItem>`pkg-config --libs SDL_ttf`</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="Bishop.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Bishop.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ChessMaster.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ChessMaster.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chessman.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chessman.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Field.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Field.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="King.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="King.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Knight.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Knight.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Man.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Man.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Queen.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Queen.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SDL_gfxPrimitives.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="SDL_gfxPrimitives.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SDL_gfxPrimitives_font.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Tower.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Tower.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="grafika/Figure" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="grafika/marble00.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="grafika/marble01.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="grafika/marble02.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="grafika/marble03.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="grafika/metal00.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="grafika/metal01.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="grafika/wood00.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="grafika/wood01.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="grafika/wood02.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="grafika/wood03.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="grafika/woodchess.png" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="Bishop.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Bishop.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ChessMaster.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ChessMaster.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Chessman.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Chessman.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Field.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Field.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="King.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="King.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Knight.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Knight.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Man.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Man.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Queen.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Queen.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SDL_gfxPrimitives.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="SDL_gfxPrimitives.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SDL_gfxPrimitives_font.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Tower.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Tower.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="grafika/Figure" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="grafika/marble00.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="grafika/marble01.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="grafika/marble02.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="grafika/marble03.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="grafika/metal00.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="grafika/metal01.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="grafika/wood00.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="grafika/wood01.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="grafika/wood02.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="grafika/wood03.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="grafika/woodchess.png" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

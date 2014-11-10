@@ -21,6 +21,8 @@
 *.la
 *.a
 *.lib
+build/*
+dist/*
 
 # Executables
 *.exe
